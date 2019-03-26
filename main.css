@@ -1,0 +1,121 @@
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+hr {
+    margin: 0;
+    background-color: white;
+    height: 1px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    margin-left: 5%;
+    width: 80%;
+}
+.ml-2 {
+    margin-left: 1vh;
+}
+
+.mt-2 {
+    margin-top: 2vh;
+}
+
+/* HEADER */
+
+.cv-about-me {  
+    width: 50%;
+    margin: 75px auto 0 auto;
+    color: white;
+}
+
+.cv-about-me-element {
+    font-size: 12px;
+}
+
+.cv-about-me h4 {
+    margin: 0;
+}
+
+.cv-header {
+    background-color: #2f3748;
+    width: 30%;
+    min-width: 250px;
+    max-width: 300px;
+    height: 100vh;
+}
+
+.cv-contact {
+    margin-top: 15vh;
+}
+
+.cv-contact-element {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.cv-profile-photo {
+    margin-top: 5vh;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    transition: all .5s;
+}
+
+.cv-profile-photo:hover {
+    transform: scale(1.1);
+}
+
+/* END OF HEADER */
+
+/* MAIN CONTAINER */
+
+.cv-name-element {
+    font-size: 60px;
+    margin: 5% 0 0; 
+    padding: 0;
+}
+
+.cv-name-element-subheader {
+    margin: 2% 0 ; 
+    padding: 0;
+}
+
+.cv-skills-title {
+    color: #2f3748;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.col-3 {
+    flex: 33%;
+}
+/* END OF MAIN CONTAINER */
